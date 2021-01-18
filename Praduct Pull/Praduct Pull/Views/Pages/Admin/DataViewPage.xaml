@@ -1,0 +1,72 @@
+﻿<Page x:Class="Praduct_Pull.Views.Pages.Admin.DataViewPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Praduct_Pull.Views.Pages.Admin"
+      mc:Ignorable="d" Loaded="Page_Loaded"
+      d:DesignHeight="600" d:DesignWidth="1000"
+      Title="DataViewPage">
+<!--Глоабальный Grid-->
+    <Grid>
+        <!--Создание разметок-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.2*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10">
+                <Button x:Name="btnBack"
+                        Content="Назад"
+                        FontSize="15"
+                        Width="120"
+                        Height="30"
+                        Click="btnBack_Click"/>
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+
+                <TextBlock  Text="Поиск:" 
+                             FontSize="18"
+                             FontWeight="SemiBold"
+                            Width="80"/>
+                <TextBox x:Name="txbSearch" FontSize="18"
+                         Width="200"/>
+
+            </StackPanel>
+
+        </Grid>
+        <!--Добавление данных из базы данных-->
+        <Grid Grid.Row="1">
+
+            <DataGrid x:Name="dataView"  AutoGenerateColumns="False" IsReadOnly="True" Margin="10">
+
+                <DataGrid.Columns>
+
+                    <DataGridTextColumn  Header="ID" Binding="{Binding ID}" Width="0.5*"/>
+                    <DataGridTextColumn Header="Название продукта" Binding="{Binding NameProduck}" Width="*"/>
+                    <DataGridTextColumn Header="Версия" Binding="{Binding Version}" Width="*"/>
+                    <DataGridTextColumn Header="Тип" Binding="{Binding Type}" Width="*"/>
+                    <DataGridTextColumn Header="Дата Релиза" Binding="{Binding DataRealese}" Width="*"/>
+                    <DataGridTextColumn Header="Прикладная область" Binding="{Binding ApplicationArea}" Width="*"/>
+                    <DataGridTextColumn Header="Стоимость Лицензии" Binding="{Binding MoneyLicence}" Width="*"/>
+
+                </DataGrid.Columns>
+                
+            </DataGrid>
+            
+        </Grid>
+        <!--Добвление кнопок-->
+        <Grid Grid.Row="2">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="btnAdd" Content="Добавить" Width="130" Height="35" Margin="0 0 20 0" Click="btnAdd_Click"/>
+                <Button x:Name="btnRemove" Content="Удалить" Width="130" Height="35" Margin="0 0 20 0" Click="btnRemove_Click"/>
+                <Button x:Name="btnEdit" Content="Редактирование" Width="130" Height="35" Margin="0 0 20 0" Click="btnEdit_Click"/>
+                <Button x:Name="btnInfo" Content="Подробнее" Width="130" Height="35" Margin="0 0 0 0" Click="btnInfo_Click"/>
+
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

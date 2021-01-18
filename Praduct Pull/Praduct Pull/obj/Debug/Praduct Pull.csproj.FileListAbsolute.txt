@@ -1,0 +1,26 @@
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\obj\Debug\Praduct Pull.csprojAssemblyReference.cache
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\obj\Debug\Views\Pages\Login\LoginPage.g.cs
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\obj\Debug\Views\Windows\MainWindow.g.cs
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\obj\Debug\App.g.cs
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\obj\Debug\Praduct Pull_MarkupCompile.cache
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\obj\Debug\Praduct Pull_MarkupCompile.lref
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\bin\Debug\Praduct Pull.exe.config
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\bin\Debug\Praduct Pull.exe
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\bin\Debug\Praduct Pull.pdb
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\obj\Debug\Views\Pages\Login\LoginPage.baml
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\obj\Debug\Views\Windows\MainWindow.baml
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\obj\Debug\Praduct Pull.g.resources
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\obj\Debug\Praduct_Pull.Properties.Resources.resources
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\obj\Debug\Praduct Pull.csproj.GenerateResource.cache
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\obj\Debug\Praduct Pull.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\obj\Debug\Praduct Pull.exe
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\obj\Debug\Praduct Pull.pdb
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\obj\Debug\Views\Pages\Admin\DataViewPage.g.cs
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\obj\Debug\Views\Pages\Admin\DataViewPage.baml
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\bin\Debug\EntityFramework.dll
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\bin\Debug\EntityFramework.xml
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\obj\Debug\Praduct Pull_Content.g.cs
+C:\Users\Администратор\Documents\Praduct Pull\Praduct Pull\obj\Debug\Praduct Pull.csproj.CopyComplete
